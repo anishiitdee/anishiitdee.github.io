@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6efc5c097d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <img src="images/logo.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#id">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="header-text">
+        <h1>Hi, I'm <span>Anish</span><br>Electrical engineering undergraduate at IIT DELHI</h1>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Greetings!<br>
+
+                    I'm currently a third-year student at IIT Delhi, delving into the exciting world of electrical engineering. But my interests extend far beyond the classroom. I'm a tech enthusiast with a keen interest in software engineering, competitive programming, and the fascinating world of language learning models.
+                    
+                    <br>When I'm not tinkering with circuits or coding away, you'll often find me immersed in the strategic depths of chess. It's not just a game for me; it's a passion that sharpens my mind and teaches me valuable lessons in strategy and patience.
+                    
+                    <br>In addition to my academic pursuits, I'm a dedicated follower of all things tech. From the latest software tools to cutting-edge innovations like ChatGPT, I make it a point to stay updated and explore new horizons in the ever-evolving tech landscape.
+                    <br>Apart of tech, I am also interested in teaching maths & chemistry at JEE/NEET level.
+                    Let's connect and embark on an exciting journey through the realms of technology, problem-solving, and endless possibilities!</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>python/C++ programmer</span><br>Expert in DSA, writing fresh codes and optimization</li>
+                            <li><span>Web Development</span><br>Web dev using html,css and js</li>
+                            <li><span>Competitive programmer</span><br>expert at codeforces, 4* coder at codechef</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Growth Intern</span><br>worked at FACT app and mentored hundreds of students for their JEE counselling, also helped in growth of company.</li>
+                            <li><span>TeamWork Programme, University of Warwick</span><br>Ongoing research project</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2026</span><br>Electrical Engineering, IIT DELHI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!----------portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        
+                        <h3>Document processing tool</h3>
+                        <p>created a search engine that will return all matching answers to an input query in the corpus provided, similar to they way search engines return the results, better than google or bing.</p>
+                        <a href="https://github.com/anishiitdee/Document-Processing-Tool"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        
+                        <h3>E++ simple language compiler</h3>
+                        <p>created a compiler this language of expressions E++ (previous project) , which does not evaluate the program, but simply generates code for it which will run on a machine.</p>
+                        <a href="https://github.com/anishiitdee/Compiler-for-Simple-Language-of-Expressions"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        
+                        <h3>Bank Data Class</h3>
+                        <p>Used hash functions to manage a vast array of bank accounts, each characterized by a combination of its IFSC code and account number.</p>
+                        <a href="https://github.com/anishiitdee/Bank-data-class"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        
+                        <h3>Two player Monopoly Game</h3>
+                        <p>MultiPlayer game built using the concepts of Object oriented programming in python</p>
+                        <a href="https://github.com/anishiitdee/Monopoly-Game"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        
+                        <h3>Corpus Q&A tool</h3>
+                        <p>Used DSA and ChatGpt API to get answers to our questions as per the corpus</p>
+                        <a href="https://github.com/anishiitdee/Corpus-QnA-Tool"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    <!------contact-------->
+    <div id="id">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>anishkriitd@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/anish-kumar-373788250"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/anish.naruto"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/anishiitdee"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Anish </p>
+        </div>
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzPBDD62Qm8hqKcTe2jmVfhX9A5Xza9aSOOFOUxSdG6XNDE7AASAiZS7lT7YjaWil3-Uw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent succesfully"
+                            setTimeout(function(){
+                                msg.innerHTML= ""
+                            },5000)
+                            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
